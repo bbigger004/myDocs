@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  # 后端服务
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: qr-nest-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+      - PORT=8080
+      - DOCS_DIR=/app/docs
+      - DIST_DIR=/app/dist
+    volumes:
+      - ./docs:/app/docs:rw
+      - ./dist:/app/dist:rw
+    networks:
+      - qr-nest-network
+    restart: unless-stopped
+
+  # 前端服务
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: qr-nest-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - qr-nest-network
+    restart: unless-stopped
+
+# 网络配置
+networks:
+  qr-nest-network:
+    driver: bridge
+    name: qr-nest-network
+
+# 卷配置
+volumes:
+  docs:
+    name: qr-nest-docs
+  dist:
+    name: qr-nest-dist

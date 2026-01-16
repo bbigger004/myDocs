@@ -1,0 +1,961 @@
+{
+  "categories": [
+    {
+      "name": "正在建设中...",
+      "links": [
+        {
+          "name": "Ansible",
+          "path": "ansible"
+        },
+        {
+          "name": "CMake",
+          "path": "cmake"
+        },
+        {
+          "name": "C#",
+          "path": "cs"
+        },
+        {
+          "name": "Django",
+          "path": "django"
+        },
+        {
+          "name": "FFmpeg",
+          "path": "ffmpeg"
+        },
+        {
+          "name": "Flask",
+          "path": "flask"
+        },
+        {
+          "name": "FastAPI",
+          "path": "fastapi"
+        },
+        {
+          "name": "Flutter",
+          "path": "flutter"
+        },
+        {
+          "name": "Gitlab CI/CD",
+          "path": "gitlab-ci"
+        },
+        {
+          "name": "LaTeX",
+          "path": "latex"
+        },
+        {
+          "name": "Lua",
+          "path": "lua"
+        },
+        {
+          "name": "NestJS",
+          "path": "nestjs"
+        },
+        {
+          "name": "MATLAB",
+          "path": "matlab"
+        },
+        {
+          "name": "Oracle",
+          "path": "oracle"
+        },
+        {
+          "name": "Pytorch",
+          "path": "pytorch"
+        },
+        {
+          "name": "Vue 3",
+          "path": "vue"
+        },
+        {
+          "name": "Github Copilot",
+          "path": "github-copilot"
+        },
+        {
+          "name": "Chown",
+          "path": "chown"
+        },
+        {
+          "name": "R 语言",
+          "path": "r"
+        },
+        {
+          "name": "Elixir",
+          "path": "elixir"
+        },
+        {
+          "name": "Tauri",
+          "path": "tauri"
+        },
+        {
+          "name": "Claude Code",
+          "path": "claude"
+        },
+        {
+          "name": "Cisco 网络设备",
+          "path": "cisco-devices"
+        },
+        {
+          "name": "Huawei 网络设备",
+          "path": "huawei-devices"
+        }
+      ]
+    },
+    {
+      "name": "编程",
+      "links": [
+        {
+          "name": "Bash",
+          "path": "bash"
+        },
+        {
+          "name": "Powershell",
+          "path": "powershell"
+        },
+        {
+          "name": "C 语言",
+          "path": "c"
+        },
+        {
+          "name": "C#",
+          "path": "cs"
+        },
+        {
+          "name": "C++",
+          "path": "cpp"
+        },
+        {
+          "name": "Dart",
+          "path": "dart"
+        },
+        {
+          "name": "Elixir",
+          "path": "elixir"
+        },
+        {
+          "name": "Erlang",
+          "path": "erlang"
+        },
+        {
+          "name": "Flutter",
+          "path": "flutter"
+        },
+        {
+          "name": "Golang",
+          "path": "golang"
+        },
+        {
+          "name": "GraphQL",
+          "path": "graphql"
+        },
+        {
+          "name": "Hook",
+          "path": "hook"
+        },
+        {
+          "name": "Java",
+          "path": "java"
+        },
+        {
+          "name": "Julia",
+          "path": "julia"
+        },
+        {
+          "name": "Kotlin",
+          "path": "kotlin"
+        },
+        {
+          "name": "Kubernetes",
+          "path": "kubernetes"
+        },
+        {
+          "name": "LaTeX",
+          "path": "latex"
+        },
+        {
+          "name": "Laravel 8",
+          "path": "laravel"
+        },
+        {
+          "name": "Leaf",
+          "path": "leaf"
+        },
+        {
+          "name": "Lua",
+          "path": "lua"
+        },
+        {
+          "name": "Markdown",
+          "path": "markdown"
+        },
+        {
+          "name": "MATLAB",
+          "path": "matlab"
+        },
+        {
+          "name": "Nix",
+          "path": "nix"
+        },
+        {
+          "name": "PHP",
+          "path": "php"
+        },
+        {
+          "name": "R 语言",
+          "path": "r"
+        },
+        {
+          "name": "Ruby",
+          "path": "ruby"
+        },
+        {
+          "name": "Rust",
+          "path": "rust"
+        },
+        {
+          "name": "Scala",
+          "path": "scala"
+        },
+        {
+          "name": "Swift",
+          "path": "swift"
+        },
+        {
+          "name": "SwiftUI",
+          "path": "swiftui"
+        },
+        {
+          "name": "Spring Boot",
+          "path": "springboot"
+        },
+        {
+          "name": "Minio",
+          "path": "minio"
+        }
+      ]
+    },
+    {
+      "name": "Docker",
+      "links": [
+        {
+          "name": "Docker",
+          "path": "docker"
+        },
+        {
+          "name": "Docker Compose",
+          "path": "docker-compose"
+        },
+        {
+          "name": "Dockerfile",
+          "path": "dockerfile"
+        }
+      ]
+    },
+    {
+      "name": "配置",
+      "links": [
+        {
+          "name": "INI",
+          "path": "ini"
+        },
+        {
+          "name": "JSON",
+          "path": "json"
+        },
+        {
+          "name": "TOML",
+          "path": "toml"
+        },
+        {
+          "name": "YAML",
+          "path": "yaml"
+        }
+      ]
+    },
+    {
+      "name": "前端",
+      "links": [
+        {
+          "name": "前端导航",
+          "path": "feds"
+        },
+        {
+          "name": "Emmet",
+          "path": "emmet"
+        },
+        {
+          "name": "ES 6",
+          "path": "es6"
+        },
+        {
+          "name": "HTML",
+          "path": "html"
+        },
+        {
+          "name": "HTML Canvas",
+          "path": "canvas"
+        },
+        {
+          "name": "JavaScript",
+          "path": "javascript"
+        },
+        {
+          "name": "jQuery",
+          "path": "jquery"
+        },
+        {
+          "name": "Next.js",
+          "path": "nextjs"
+        },
+        {
+          "name": "RxJS",
+          "path": "rxjs"
+        },
+        {
+          "name": "React",
+          "path": "react"
+        },
+        {
+          "name": "React Router",
+          "path": "reactrouter"
+        },
+        {
+          "name": "TypeScript",
+          "path": "typescript"
+        },
+        {
+          "name": "Vue 2",
+          "path": "vue2"
+        },
+        {
+          "name": "Vue 3",
+          "path": "vue"
+        },
+        {
+          "name": "</> htmx",
+          "path": "htmx"
+        },
+        {
+          "name": "Pinia",
+          "path": "pinia"
+        }
+      ]
+    },
+    {
+      "name": "CSS",
+      "links": [
+        {
+          "name": "CSS 3",
+          "path": "css"
+        },
+        {
+          "name": "Styled Components",
+          "path": "styled-components"
+        },
+        {
+          "name": "Stylus",
+          "path": "stylus"
+        },
+        {
+          "name": "Sass",
+          "path": "sass"
+        },
+        {
+          "name": "Less.js",
+          "path": "lessjs"
+        },
+        {
+          "name": "Tailwind CSS",
+          "path": "tailwindcss"
+        },
+        {
+          "name": "StyleX",
+          "path": "stylex"
+        }
+      ]
+    },
+    {
+      "name": "客户端",
+      "links": [
+        {
+          "name": "Electron",
+          "path": "electron"
+        },
+        {
+          "name": "React Native",
+          "path": "react-native"
+        },
+        {
+          "name": "Tauri",
+          "path": "tauri"
+        },
+        {
+          "name": "Wails",
+          "path": "wails"
+        }
+      ]
+    },
+    {
+      "name": "Nodejs",
+      "links": [
+        {
+          "name": "Express.js",
+          "path": "expressjs"
+        },
+        {
+          "name": "Ejs",
+          "path": "ejs"
+        },
+        {
+          "name": "Jest",
+          "path": "jest"
+        },
+        {
+          "name": "Koa.js",
+          "path": "koajs"
+        },
+        {
+          "name": "Lerna",
+          "path": "lerna"
+        },
+        {
+          "name": "npm",
+          "path": "npm"
+        },
+        {
+          "name": "NestJS",
+          "path": "nestjs"
+        },
+        {
+          "name": "PM2",
+          "path": "pm2"
+        },
+        {
+          "name": "package.json",
+          "path": "package.json"
+        },
+        {
+          "name": "Yarn",
+          "path": "yarn"
+        },
+        {
+          "name": "nvm",
+          "path": "nvm"
+        },
+        {
+          "name": "pnpm",
+          "path": "pnpm"
+        },
+        {
+          "name": "Bun",
+          "path": "bun"
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "links": [
+        {
+          "name": "Python",
+          "path": "python"
+        },
+        {
+          "name": "Django",
+          "path": "django"
+        },
+        {
+          "name": "Flask",
+          "path": "flask"
+        },
+        {
+          "name": "FastAPI",
+          "path": "fastapi"
+        },
+        {
+          "name": "Pytorch",
+          "path": "pytorch"
+        },
+        {
+          "name": "Jupyter",
+          "path": "jupyter"
+        },
+        {
+          "name": "Conda",
+          "path": "conda"
+        },
+        {
+          "name": "pip",
+          "path": "pip"
+        },
+        {
+          "name": "uv",
+          "path": "uv"
+        }
+      ]
+    },
+    {
+      "name": "命令",
+      "links": [
+        {
+          "name": "ADB, Android Debug Bridge",
+          "path": "adb"
+        },
+        {
+          "name": "Ansible",
+          "path": "ansible"
+        },
+        {
+          "name": "Awk",
+          "path": "awk"
+        },
+        {
+          "name": "Curl",
+          "path": "curl"
+        },
+        {
+          "name": "Chmod",
+          "path": "chmod"
+        },
+        {
+          "name": "Chown",
+          "path": "chown"
+        },
+        {
+          "name": "Cron",
+          "path": "cron"
+        },
+        {
+          "name": "CMake",
+          "path": "cmake"
+        },
+        {
+          "name": "CMD",
+          "path": "cmd"
+        },
+        {
+          "name": ".NET CLI",
+          "path": "dotnet-cli"
+        },
+        {
+          "name": "Find",
+          "path": "find"
+        },
+        {
+          "name": "FFmpeg",
+          "path": "ffmpeg"
+        },
+        {
+          "name": "FTP",
+          "path": "ftp"
+        },
+        {
+          "name": "Gdb",
+          "path": "gdb"
+        },
+        {
+          "name": "Glances",
+          "path": "glances"
+        },
+        {
+          "name": "Grep",
+          "path": "grep"
+        },
+        {
+          "name": "Htop",
+          "path": "htop"
+        },
+        {
+          "name": "iptables",
+          "path": "iptables"
+        },
+        {
+          "name": "jq",
+          "path": "jq"
+        },
+        {
+          "name": "Justfile",
+          "path": "justfile"
+        },
+        {
+          "name": "Lsof",
+          "path": "lsof"
+        },
+        {
+          "name": "Make",
+          "path": "make"
+        },
+        {
+          "name": "Netstat",
+          "path": "netstat"
+        },
+        {
+          "name": "Netcat",
+          "path": "netcat"
+        },
+        {
+          "name": "OpenSSL",
+          "path": "openssl"
+        },
+        {
+          "name": "ps",
+          "path": "ps"
+        },
+        {
+          "name": "Pandoc",
+          "path": "pandoc"
+        },
+        {
+          "name": "Sed",
+          "path": "sed"
+        },
+        {
+          "name": "Systemd",
+          "path": "systemd"
+        },
+        {
+          "name": "SSH",
+          "path": "ssh"
+        },
+        {
+          "name": "Screen",
+          "path": "screen"
+        },
+        {
+          "name": "Sysdig",
+          "path": "sysdig"
+        },
+        {
+          "name": "Tmux",
+          "path": "tmux"
+        },
+        {
+          "name": "Taskset",
+          "path": "taskset"
+        },
+        {
+          "name": "tar",
+          "path": "tar"
+        },
+        {
+          "name": "Yazi",
+          "path": "yazi"
+        },
+        {
+          "name": "Zip",
+          "path": "zip"
+        }
+      ]
+    },
+    {
+      "name": "工具",
+      "links": [
+        {
+          "name": "ChatGPT",
+          "path": "chatgpt"
+        },
+        {
+          "name": "Claude Code",
+          "path": "claude"
+        },
+        {
+          "name": "Emacs",
+          "path": "emacs"
+        },
+        {
+          "name": "Linux Command",
+          "path": "linux-command"
+        },
+        {
+          "name": "Mitmproxy",
+          "path": "mitmproxy"
+        },
+        {
+          "name": "nginx",
+          "path": "nginx"
+        },
+        {
+          "name": "RegEx 正则表达式",
+          "path": "regex"
+        },
+        {
+          "name": "Semver 语义化版本",
+          "path": "semver"
+        },
+        {
+          "name": "Vim",
+          "path": "vim"
+        },
+        {
+          "name": "XPath",
+          "path": "xpath"
+        }
+      ]
+    },
+    {
+      "name": "软件包管理器",
+      "links": [
+        {
+          "name": "APT",
+          "path": "apt"
+        },
+        {
+          "name": "Conan",
+          "path": "conan"
+        },
+        {
+          "name": "CocoaPods",
+          "path": "cocoapods"
+        },
+        {
+          "name": "Cargo",
+          "path": "cargo"
+        },
+        {
+          "name": "Homebrew",
+          "path": "homebrew"
+        },
+        {
+          "name": "Pacman",
+          "path": "pacman"
+        },
+        {
+          "name": "YUM",
+          "path": "yum"
+        },
+        {
+          "name": "SDKMAN",
+          "path": "sdkman"
+        }
+      ]
+    },
+    {
+      "name": "Git 版本控制",
+      "links": [
+        {
+          "name": "Git",
+          "path": "git"
+        },
+        {
+          "name": "Github",
+          "path": "github"
+        },
+        {
+          "name": "Github Copilot",
+          "path": "github-copilot"
+        },
+        {
+          "name": "Github CLI",
+          "path": "github-cli"
+        },
+        {
+          "name": "Github Actions",
+          "path": "github-actions"
+        },
+        {
+          "name": "Gitlab CI/CD",
+          "path": "gitlab-ci"
+        }
+      ]
+    },
+    {
+      "name": "数据库",
+      "links": [
+        {
+          "name": "MySQL",
+          "path": "mysql"
+        },
+        {
+          "name": "MongoDB",
+          "path": "mongodb"
+        },
+        {
+          "name": "Oracle",
+          "path": "oracle"
+        },
+        {
+          "name": "PostgreSQL",
+          "path": "postgres"
+        },
+        {
+          "name": "Redis",
+          "path": "redis"
+        },
+        {
+          "name": "Elasticsearch",
+          "path": "elasticsearch"
+        },
+        {
+          "name": "Neo4j",
+          "path": "neo4j"
+        },
+        {
+          "name": "SQLite",
+          "path": "sqlite"
+        }
+      ]
+    },
+    {
+      "name": "网络设备",
+      "links": [
+        {
+          "name": "Cisco 网络设备",
+          "path": "cisco-devices"
+        },
+        {
+          "name": "Huawei 网络设备",
+          "path": "huawei-devices"
+        }
+      ]
+    },
+    {
+      "name": "快捷键",
+      "links": [
+        {
+          "name": "Adobe Lightroom",
+          "path": "adobe-lightroom"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "path": "adobe-photoshop"
+        },
+        {
+          "name": "Adobe XD",
+          "path": "adobe-xd"
+        },
+        {
+          "name": "Android Studio",
+          "path": "android-studio"
+        },
+        {
+          "name": "Blender",
+          "path": "blender"
+        },
+        {
+          "name": "Firefox",
+          "path": "firefox"
+        },
+        {
+          "name": "Finder",
+          "path": "finder"
+        },
+        {
+          "name": "Figma",
+          "path": "figma"
+        },
+        {
+          "name": "Gmail",
+          "path": "gmail"
+        },
+        {
+          "name": "Gitlab",
+          "path": "gitlab"
+        },
+        {
+          "name": "Google Chrome",
+          "path": "google-chrome"
+        },
+        {
+          "name": "IntelliJ IDEA",
+          "path": "intelli-j-idea"
+        },
+        {
+          "name": "PyCharm",
+          "path": "pycharm"
+        },
+        {
+          "name": "PhpStorm",
+          "path": "phpstorm"
+        },
+        {
+          "name": "Sketch",
+          "path": "sketch"
+        },
+        {
+          "name": "Sublime Text",
+          "path": "sublime-text"
+        },
+        {
+          "name": "Vimium",
+          "path": "vimium"
+        },
+        {
+          "name": "VSCode",
+          "path": "vscode"
+        },
+        {
+          "name": "WebStorm",
+          "path": "webstorm"
+        },
+        {
+          "name": "Xcode",
+          "path": "xcode"
+        },
+        {
+          "name": "Zed",
+          "path": "zed"
+        }
+      ]
+    },
+    {
+      "name": "其它",
+      "links": [
+        {
+          "name": "Quick Reference",
+          "path": "quickreference"
+        },
+        {
+          "name": "Aspect Ratio",
+          "path": "aspect-ratio"
+        },
+        {
+          "name": "ASCII Code",
+          "path": "ascii-code"
+        },
+        {
+          "name": "Symbol Code",
+          "path": "symbol-code"
+        },
+        {
+          "name": "Colors Named",
+          "path": "colors-named"
+        },
+        {
+          "name": "HTTP 状态码",
+          "path": "http-status-code"
+        },
+        {
+          "name": "HTML 字符实体",
+          "path": "html-char"
+        },
+        {
+          "name": "ISO-3166 国家代码",
+          "path": "iso-3166-1"
+        },
+        {
+          "name": "ISO-639 语言代码",
+          "path": "iso-639-1"
+        },
+        {
+          "name": "Emoji",
+          "path": "emoji"
+        },
+        {
+          "name": "MIME types",
+          "path": "mime"
+        },
+        {
+          "name": "Resolutions",
+          "path": "resolutions"
+        },
+        {
+          "name": "时区列表",
+          "path": "time-zones"
+        },
+        {
+          "name": "常见端口对照",
+          "path": "ports"
+        }
+      ]
+    }
+  ]
+}
