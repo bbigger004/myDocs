@@ -38,9 +38,10 @@ export class FileService {
         
         // 过滤出属于这些文档类型的文档
         markdownFiles = markdownFiles.filter(file => {
-          const relativePath = path.relative(this.docsDir, file);
-          const dirPath = path.dirname(relativePath);
-          return documentTypePaths.includes(dirPath);
+
+
+          const relativePath = getFileNameWithoutExt(path.basename(file));
+          return documentTypePaths.includes(relativePath);
         });
       } else {
         // 如果分类不存在，返回空列表
@@ -281,17 +282,17 @@ export class FileService {
     let order = 0;
     for (const categoryGroup of docsConfig.categories) {
       // 统计该分类组下所有文档的数量
-      let documentCount = 0;
+      let documentCount = categoryGroup.links.length;
       
-      for (const link of categoryGroup.links) {
-        const categoryDir = path.join(this.docsDir, link.path);
-        if (fs.existsSync(categoryDir)) {
-          const allFiles = readDirRecursive(categoryDir);
-          documentCount += allFiles.filter(file => 
-            path.extname(file).toLowerCase() === FILE_EXTENSION
-          ).length;
-        }
-      }
+      // for (const link of categoryGroup.links) {
+      //   const categoryDir = path.join(this.docsDir, link.path);
+      //   if (fs.existsSync(categoryDir)) {
+      //     const allFiles = readDirRecursive(categoryDir);
+      //     documentCount += allFiles.filter(file => 
+      //       path.extname(file).toLowerCase() === FILE_EXTENSION
+      //     ).length;
+      //   }
+      // }
       
       categories.push({
         id: generateId(),
@@ -304,21 +305,21 @@ export class FileService {
       });
     }
     
-    // 添加未分类
-    const rootFiles = fs.readdirSync(this.docsDir, { withFileTypes: true });
-    const uncategorizedCount = rootFiles.filter(file => 
-      file.isFile() && path.extname(file.name).toLowerCase() === FILE_EXTENSION
-    ).length;
+    // // 添加未分类
+    // const rootFiles = fs.readdirSync(this.docsDir, { withFileTypes: true });
+    // const uncategorizedCount = rootFiles.filter(file => 
+    //   file.isFile() && path.extname(file.name).toLowerCase() === FILE_EXTENSION
+    // ).length;
     
-    categories.push({
-      id: generateId(),
-      name: '未分类',
-      description: 'uncategorized',
-      order: order,
-      documentCount: uncategorizedCount,
-      createdAt: new Date(),
-      updatedAt: new Date()
-    });
+    // categories.push({
+    //   id: generateId(),
+    //   name: '未分类',
+    //   description: 'uncategorized',
+    //   order: order,
+    //   documentCount: uncategorizedCount,
+    //   createdAt: new Date(),
+    //   updatedAt: new Date()
+    // });
     
     return categories;
   }
